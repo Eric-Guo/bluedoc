@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source "https://gems.ruby-china.com"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "rails"
 gem "pg"
 gem "redis"
 gem "redis-objects"
-gem "puma"
+gem "puma", "~> 4.3.7"
 gem "react-rails"
 
-gem "graphql", "1.8.14"
+gem "graphql", '~> 1.8.14'
 
 gem "sidekiq"
 
@@ -72,6 +72,8 @@ gem "foreman"
 
 gem "jira-ruby"
 
+gem "rake"
+
 group :development, :test do
   gem "mocha"
   gem "letter_opener"
@@ -80,6 +82,12 @@ group :development, :test do
   gem "brakeman"
   gem "simplecov"
   gem "codecov"
+
+  gem "capistrano"
+  gem "capistrano-rails"
+  gem "capistrano-rbenv"
+  gem "capistrano3-puma"
+  gem "capistrano-sidekiq"
 end
 
 group :development do

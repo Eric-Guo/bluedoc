@@ -2,7 +2,7 @@
 
 # RailsSettings Model
 class Setting < RailsSettings::Base
-  field :host, type: :string, default: (ENV["APP_HOST"] || "http://localhost:3000")
+  field :host, type: :string, default: (ENV["BLUEDOC_HOST"] || "http://localhost:3000")
   field :site_logo, type: :string
   field :default_locale, default: "en", type: :string
   field :admin_emails, default: ["admin@bluedoc.io"], type: :array
