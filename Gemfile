@@ -7,7 +7,7 @@ gem "rails"
 gem "pg"
 gem "redis"
 gem "redis-objects"
-gem "puma", "~> 4.3.7"
+gem "puma", "~> 4.3.8"
 gem "react-rails"
 
 gem "graphql", '~> 1.8.14'
