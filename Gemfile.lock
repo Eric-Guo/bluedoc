@@ -80,10 +80,10 @@ GEM
     awesome_nested_set (3.4.0)
       activerecord (>= 4.0.0, < 7.0)
     aws-eventstream (1.2.0)
-    aws-partitions (1.518.0)
-    aws-sdk-core (3.121.3)
+    aws-partitions (1.521.0)
+    aws-sdk-core (3.121.5)
       aws-eventstream (~> 1, >= 1.0.2)
-      aws-partitions (~> 1, >= 1.239.0)
+      aws-partitions (~> 1, >= 1.520.1)
       aws-sigv4 (~> 1.1)
       jmespath (~> 1.0)
     aws-sdk-kms (1.50.0)
@@ -109,7 +109,7 @@ GEM
       rails
     bootsnap (1.9.1)
       msgpack (~> 1.0)
-    brakeman (5.1.1)
+    brakeman (5.1.2)
     builder (3.2.4)
     byebug (11.1.3)
     cancancan (3.3.0)
@@ -389,13 +389,13 @@ GEM
       netrc (~> 0.8)
     rexml (3.2.5)
     rouge (3.26.1)
-    rubocop (1.20.0)
+    rubocop (1.22.3)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml
-      rubocop-ast (>= 1.9.1, < 2.0)
+      rubocop-ast (>= 1.12.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.12.0)
@@ -438,8 +438,8 @@ GEM
     sshkit (1.21.2)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    standard (1.3.0)
-      rubocop (= 1.20.0)
+    standard (1.4.0)
+      rubocop (= 1.22.3)
       rubocop-performance (= 1.11.5)
     status-page (0.1.5)
       rails (>= 4.2)
@@ -550,4 +550,4 @@ DEPENDENCIES
   wicked_pdf
 
 BUNDLED WITH
-   2.2.29
+   2.2.30
