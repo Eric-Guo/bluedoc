@@ -4,7 +4,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "rails"
-gem "pg"
+gem "pg", "~> 1.2.3"
 gem "redis"
 gem "redis-objects"
 gem "puma", "~> 4.3.8"
