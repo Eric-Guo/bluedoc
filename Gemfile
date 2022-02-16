@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "rails"
+gem "rails", '~> 6.1.4.6'
 gem "pg", "~> 1.2.3"
 gem "redis"
 gem "redis-objects"
