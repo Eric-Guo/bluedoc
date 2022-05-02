@@ -5,7 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "rails", '~> 6.1.5'
 gem "pg", "~> 1.2.3"
-gem "redis"
+gem "redis", "~> 4.5.1" # need by new redis-objects v1.6.0
 gem "redis-objects"
 gem "puma", "~> 4.3.8"
 gem "react-rails"
