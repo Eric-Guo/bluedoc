@@ -80,8 +80,8 @@ GEM
     awesome_nested_set (3.5.0)
       activerecord (>= 4.0.0, < 7.1)
     aws-eventstream (1.2.0)
-    aws-partitions (1.626.0)
-    aws-sdk-core (3.141.0)
+    aws-partitions (1.627.0)
+    aws-sdk-core (3.143.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.525.0)
       aws-sigv4 (~> 1.1)
@@ -327,7 +327,7 @@ GEM
     pg (1.2.3)
     pghero (2.8.3)
       activerecord (>= 5)
-    psych (3.3.2)
+    psych (3.3.3)
     public_suffix (5.0.0)
     puma (4.3.12)
       nio4r (~> 2.0)
@@ -393,7 +393,7 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     rexml (3.2.5)
-    rouge (3.30.0)
+    rouge (4.0.0)
     rubocop (1.35.1)
       json (~> 2.3)
       parallel (~> 1.10)
@@ -562,4 +562,4 @@ DEPENDENCIES
   wicked_pdf
 
 BUNDLED WITH
-   2.3.21
+   2.3.22
