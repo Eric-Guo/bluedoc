@@ -86,7 +86,7 @@ GEM
     awesome_nested_set (3.5.0)
       activerecord (>= 4.0.0, < 7.1)
     aws-eventstream (1.2.0)
-    aws-partitions (1.653.0)
+    aws-partitions (1.656.0)
     aws-sdk-core (3.166.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
@@ -273,7 +273,8 @@ GEM
     mini_magick (4.11.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
-    mocha (1.16.0)
+    mocha (2.0.1)
+      ruby2_keywords (>= 0.0.5)
     msgpack (1.6.0)
     multi_json (1.15.0)
     multi_xml (0.6.0)
@@ -380,7 +381,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rb_sys (0.9.34)
+    rb_sys (0.9.36)
     react-rails (2.6.2)
       babel-transpiler (>= 0.7.0)
       connection_pool
@@ -497,7 +498,7 @@ GEM
     websocket-extensions (0.1.5)
     wicked_pdf (2.6.3)
       activesupport
-    zeitwerk (2.6.1)
+    zeitwerk (2.6.4)
 
 PLATFORMS
   arm64-darwin-21
@@ -576,4 +577,4 @@ DEPENDENCIES
   wicked_pdf
 
 BUNDLED WITH
-   2.3.24
+   2.3.25
