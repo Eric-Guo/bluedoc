@@ -86,7 +86,7 @@ GEM
     awesome_nested_set (3.5.0)
       activerecord (>= 4.0.0, < 7.1)
     aws-eventstream (1.2.0)
-    aws-partitions (1.817.0)
+    aws-partitions (1.818.0)
     aws-sdk-core (3.181.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
@@ -279,7 +279,7 @@ GEM
     mime-types-data (3.2023.0808)
     mini_magick (4.12.0)
     mini_mime (1.1.5)
-    minitest (5.19.0)
+    minitest (5.20.0)
     mocha (2.1.0)
       ruby2_keywords (>= 0.0.5)
     msgpack (1.7.2)
@@ -409,7 +409,7 @@ GEM
       railties (>= 3.2)
       tilt
     redis (4.5.1)
-    redis-client (0.16.0)
+    redis-client (0.17.0)
       connection_pool
     redis-objects (1.7.0)
       redis
