@@ -86,8 +86,8 @@ GEM
     awesome_nested_set (3.5.0)
       activerecord (>= 4.0.0, < 7.1)
     aws-eventstream (1.2.0)
-    aws-partitions (1.827.0)
-    aws-sdk-core (3.183.0)
+    aws-partitions (1.828.0)
+    aws-sdk-core (3.183.1)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
       aws-sigv4 (~> 1.5)
@@ -206,7 +206,7 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
-    ffi (1.16.1)
+    ffi (1.16.2)
     file_validators (3.0.0)
       activemodel (>= 3.2)
       mime-types (>= 1.0)
@@ -401,7 +401,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rb_sys (0.9.81)
+    rb_sys (0.9.82)
     react-rails (3.1.1)
       babel-transpiler (>= 0.7.0)
       connection_pool
@@ -533,7 +533,7 @@ GEM
     websocket-extensions (0.1.5)
     wicked_pdf (2.7.0)
       activesupport
-    zeitwerk (2.6.11)
+    zeitwerk (2.6.12)
 
 PLATFORMS
   arm64-darwin-21
