@@ -86,7 +86,7 @@ GEM
     awesome_nested_set (3.6.0)
       activerecord (>= 4.0.0, < 7.2)
     aws-eventstream (1.2.0)
-    aws-partitions (1.838.0)
+    aws-partitions (1.839.0)
     aws-sdk-core (3.185.1)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
@@ -286,7 +286,7 @@ GEM
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.3.0)
-    net-imap (0.4.1)
+    net-imap (0.4.2)
       date
       net-protocol
     net-ldap (0.18.0)
