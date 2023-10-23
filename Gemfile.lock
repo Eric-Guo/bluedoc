@@ -409,7 +409,7 @@ GEM
       railties (>= 3.2)
       tilt
     redis (4.5.1)
-    redis-client (0.17.0)
+    redis-client (0.17.1)
       connection_pool
     redis-objects (1.7.0)
       redis
