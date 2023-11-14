@@ -56,7 +56,7 @@ GEM
       activesupport (= 6.1.7.6)
       marcel (~> 1.0)
       mini_mime (>= 1.1.0)
-    activestorage-aliyun (1.1.0)
+    activestorage-aliyun (1.2.0)
       aliyun-sdk (>= 0.6.0)
       rails (>= 6.0.0)
     activesupport (6.1.7.6)
@@ -86,7 +86,7 @@ GEM
     awesome_nested_set (3.6.0)
       activerecord (>= 4.0.0, < 7.2)
     aws-eventstream (1.2.0)
-    aws-partitions (1.848.0)
+    aws-partitions (1.849.0)
     aws-sdk-core (3.186.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
@@ -263,7 +263,7 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.21.4)
+    loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
@@ -285,7 +285,7 @@ GEM
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.3.0)
-    net-imap (0.4.4)
+    net-imap (0.4.5)
       date
       net-protocol
     net-ldap (0.18.0)
@@ -611,4 +611,4 @@ DEPENDENCIES
   wicked_pdf
 
 BUNDLED WITH
-   2.4.21
+   2.4.22
