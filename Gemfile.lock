@@ -144,9 +144,9 @@ GEM
       puma (>= 4.0, < 6.0)
     codecov (0.6.0)
       simplecov (>= 0.15, < 0.22)
-    commonmarker (1.0.0-arm64-darwin)
-    commonmarker (1.0.0-x86_64-darwin)
-    commonmarker (1.0.0-x86_64-linux)
+    commonmarker (1.0.3-arm64-darwin)
+    commonmarker (1.0.3-x86_64-darwin)
+    commonmarker (1.0.3-x86_64-linux)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
     crass (1.0.6)
@@ -624,4 +624,4 @@ DEPENDENCIES
   wicked_pdf
 
 BUNDLED WITH
-   2.5.3
+   2.4.22
