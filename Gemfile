@@ -36,6 +36,7 @@ gem "rails-settings-cached"
 
 gem "elasticsearch-model", "~> 6"
 gem "elasticsearch-rails", "~> 6"
+gem "faraday", "~> 1.10.3"
 
 gem "second_level_cache"
 
