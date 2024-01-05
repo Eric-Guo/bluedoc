@@ -143,7 +143,6 @@ GEM
       puma (>= 4.0, < 6.0)
     codecov (0.6.0)
       simplecov (>= 0.15, < 0.22)
-    commonmarker (1.0.4-aarch64-linux)
     commonmarker (1.0.4-arm64-darwin)
     commonmarker (1.0.4-x86_64-darwin)
     commonmarker (1.0.4-x86_64-linux)
@@ -304,8 +303,6 @@ GEM
     net-ssh (7.2.1)
     netrc (0.11.0)
     nio4r (2.7.0)
-    nokogiri (1.16.0-aarch64-linux)
-      racc (~> 1.4)
     nokogiri (1.16.0-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.0-x86_64-darwin)
@@ -465,7 +462,6 @@ GEM
     second_level_cache (2.7.1)
       activerecord (>= 6.0)
       activesupport (>= 6.0)
-    selma (0.2.2-aarch64-linux)
     selma (0.2.2-arm64-darwin)
     selma (0.2.2-x86_64-darwin)
     selma (0.2.2-x86_64-linux)
@@ -542,7 +538,6 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
-  aarch64-linux
   arm64-darwin
   x86_64-darwin
   x86_64-linux
