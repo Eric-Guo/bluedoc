@@ -219,7 +219,7 @@ GEM
       railties
     graphql (1.8.18)
     hashie (3.5.7)
-    html-pipeline (3.0.3)
+    html-pipeline (3.1.0)
       selma (~> 0.1)
       zeitwerk (~> 2.5)
     html-pipeline-auto-correct (0.2.0)
@@ -274,7 +274,7 @@ GEM
       net-imap
       net-pop
       net-smtp
-    marcel (1.0.2)
+    marcel (1.0.3)
     method_source (1.0.0)
     mime-types (3.5.2)
       mime-types-data (~> 3.2015)
