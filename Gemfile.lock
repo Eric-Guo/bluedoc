@@ -466,7 +466,7 @@ GEM
     rucaptcha (3.1.2-x86_64-linux)
       railties (>= 3.2)
       rb_sys (>= 0.9.18)
-    sanitize (6.1.1)
+    sanitize (6.1.2)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     second_level_cache (2.7.1)
